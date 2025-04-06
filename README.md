@@ -1,54 +1,29 @@
-# React + TypeScript + Vite
+# Ignisia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite](https://img.shields.io/badge/Vite-4.0.0-green) ![TypeScript](https://img.shields.io/badge/TypeScript-%3E%3D4.0-blue) ![MIT License](https://img.shields.io/badge/License-MIT-blue)
 
-Currently, two official plugins are available:
+**Ignisia** – A personal idea manager forged for creators. Capture sparks of inspiration, organize your thoughts, and ignite action. Fast, minimal, and built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- ⚡ Lightning-fast performance with **Vite**
+- 🌱 Built for **creators** to manage and grow their ideas
+- ✨ Simple, minimal, and intuitive UI built with **CSS**
+- 💡 Organize, categorize, and revisit your ideas anytime
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React** for building interactive UIs
+- **TypeScript** for type safety
+- **Tailwind CSS** for utility-first styling
+- **Vite** for super-fast development environment
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Setup
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+To get started with **Ignisia** locally, clone the repository and install the dependencies:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+```bash
+git clone https://github.com/NataPas2021/ignisia.git
+cd ignisia
+npm install
+npm run dev

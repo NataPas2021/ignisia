@@ -1,0 +1,17 @@
+/* Стилі для контейнера списку ідей */
+.ideaListContainer {
+    padding: 16px;
+  }
+  
+  /* Стилі для елемента списку */
+  .ideaListItem {
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Лінія розділення */
+  }
+  
+  /* Стилі для повідомлення, коли немає ідей */
+  .noIdeasMessage {
+    font-style: italic;
+    color: #777;
+  }
+  

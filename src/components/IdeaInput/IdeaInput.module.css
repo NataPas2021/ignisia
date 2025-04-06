@@ -1,0 +1,34 @@
+/* Стилі для контейнера компонента */
+.ideaInputContainer {
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стилі для текстового поля */
+  .textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  /* Стилі для кнопки */
+  .button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
