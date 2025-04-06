@@ -15,7 +15,7 @@
 
 - **React** for building interactive UIs
 - **TypeScript** for type safety
-- **Tailwind CSS** for utility-first styling
+- **CSS** for utility-first styling
 - **Vite** for super-fast development environment
 
 ## Setup
@@ -27,3 +27,4 @@ git clone https://github.com/NataPas2021/ignisia.git
 cd ignisia
 npm install
 npm run dev
+```
