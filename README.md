@@ -1,6 +1,6 @@
 # Ignisia
 
-![Vite](https://img.shields.io/badge/Vite-4.0.0-green) ![TypeScript](https://img.shields.io/badge/TypeScript-%3E%3D4.0-blue) ![MIT License](https://img.shields.io/badge/License-MIT-blue)
+![Vite](https://img.shields.io/badge/Vite-6.2.0-green) ![TypeScript](https://img.shields.io/badge/TypeScript-%3E%3D4.0-blue) ![MIT License](https://img.shields.io/badge/License-MIT-blue)
 
 **Ignisia** – A personal idea manager forged for creators. Capture sparks of inspiration, organize your thoughts, and ignite action. Fast, minimal, and built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
